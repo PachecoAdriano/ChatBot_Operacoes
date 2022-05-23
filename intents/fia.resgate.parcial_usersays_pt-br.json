@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b7833061-9bf3-4cd0-b044-9c6be0d9adaf",
+    "data": [
+      {
+        "text": "parte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e0f9b542-2835-4485-8a0e-c727926749c0",
+    "data": [
+      {
+        "text": "parcial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

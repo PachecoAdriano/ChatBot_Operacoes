@@ -1,0 +1,44 @@
+{
+  "id": "41943448-47c3-4ea1-917c-06d3b1bf0999",
+  "parentId": "72e6739e-b9cc-4657-987c-74688253ec57",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "mm.resgatar",
+  "auto": true,
+  "contexts": [
+    "resgatar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom",
+      "affectedContexts": [
+        {
+          "name": "mmresgatar-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Será resgate total ou parcial (valor específico) nesse fundo?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

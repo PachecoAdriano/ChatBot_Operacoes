@@ -1,0 +1,121 @@
+{
+  "id": "9c5331d1-16a6-4369-9645-a6a7fd45bba7",
+  "parentId": "9b368e81-2922-4650-a5bd-c3a5e6e4c062",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "fia.resgate.parcial",
+  "auto": true,
+  "contexts": [
+    "fiaresgate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.fiaresgate-custom",
+      "affectedContexts": [
+        {
+          "name": "fiaresgateparcial-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "20fcd9bd-377c-44d8-a010-22c96a1b4e03",
+          "name": "valor",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$valor",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite o valor a ser resgatado"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "baa0b4e7-aacc-4b26-89b7-9087078d5b42",
+          "name": "banco",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$banco",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Para podermos proceder, precisamos saber os dados da conta a ser creditado o recurso. A conta precisa ser EM NOME DO TITULAR. Informe primeiro qual o banco:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "16cea7b4-bbd9-414c-971e-4c07b487f80e",
+          "name": "agencia",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$agencia",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite a agência:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b360df30-e115-4066-b723-e94ef541c753",
+          "name": "conta",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$conta",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite o número da conta"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dados da conta:\nBanco: $banco\nAgência: $agencia\nConta: $conta\n\nVocê confirma o resgate PARCIAL no valor de $valor dos recursos alocados no fundo de Renda Variável para a conta corrente informada?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

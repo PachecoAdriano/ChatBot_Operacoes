@@ -1,0 +1,67 @@
+[
+  {
+    "id": "db693cee-661d-47c8-b61b-b0197fd2150a",
+    "data": [
+      {
+        "text": "investimentos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "86a22c5e-031f-4c8a-be78-018bc21264b5",
+    "data": [
+      {
+        "text": "aplicações",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0802a251-845d-45a6-bfcd-766cd0cb1ba9",
+    "data": [
+      {
+        "text": "aplicar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "35b5eb75-1cf2-4258-8ff6-a1a5b90588d7",
+    "data": [
+      {
+        "text": "investimento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c48945e7-9e35-46b9-aa4e-9f4e1bc6e410",
+    "data": [
+      {
+        "text": "investir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

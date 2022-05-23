@@ -1,0 +1,102 @@
+{
+  "id": "84e1f285-1af1-4112-9781-cf1dcc2ea964",
+  "parentId": "41943448-47c3-4ea1-917c-06d3b1bf0999",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "mm.resgata.total",
+  "auto": true,
+  "contexts": [
+    "mmresgatar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.mmresgatar-custom",
+      "affectedContexts": [
+        {
+          "name": "mmresgatar-custom-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fcacc0a4-1e8e-4c96-afa0-8c982f568788",
+          "name": "banco",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$banco",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Certo, para podermos proceder, precisamos saber os dados da conta a ser creditado o recurso. A conta precisa ser EM NOME DO TITULAR. Informe primeiro qual o banco:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "472b5b1c-bdf4-4f49-ba1a-1fbd4880f1ed",
+          "name": "agencia",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$agencia",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual agência?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "961954e2-3577-4be2-ace3-0f1b73e45900",
+          "name": "conta",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$conta",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Informe o número da conta corrente"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dados da conta:\nBanco: $banco\nAgência: $agencia\nConta: $conta\n\nVocê confirma o resgate TOTAL dos recursos alocados no fundo MULTIMERCADO para a conta corrente informada?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

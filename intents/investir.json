@@ -1,0 +1,98 @@
+{
+  "id": "f7f06c86-0b9d-47d5-b89b-7534b9efd54c",
+  "name": "investir",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "investir-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b7f55d53-8469-4490-86ca-47fab4c97b67",
+          "name": "rendafixa",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$rendafixa",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Certo, temos 3 fundos de investimentos (renda fixa, multimercado e renda variável). Vamos um por vez. No fundo de RENDA FIXA, quanto pretende investir? Digite ZERO,  caso não queira aportar nesse fundo."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b147d674-eb24-4c8e-943b-f7657a715988",
+          "name": "multimercado",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$multimercado",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Quanto pretende investir no fundo de MULTIMERCADO? Digite ZERO caso não queira aportar nesse fundo."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "796dd65b-696f-445c-91b5-9a221beeac90",
+          "name": "rendavariavel",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$rendavariavel",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite o valor que pretende investir em RENDA VARIÁVEL. Digite ZERO caso não queira aportar nesse fundo."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você confirma as aplicações a seguir?\n\nRenda Fixa: $rendafixa\nMultimercado: $multimercado\nRenda Variável: $rendavariavel"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

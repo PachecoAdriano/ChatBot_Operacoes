@@ -1,0 +1,45 @@
+[
+  {
+    "id": "2dadf959-8772-498a-b40d-3a3153f18bf1",
+    "data": [
+      {
+        "text": "fixa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ad525f85-9979-489a-9b5b-9fe054c7e06b",
+    "data": [
+      {
+        "text": "renda",
+        "userDefined": false
+      },
+      {
+        "text": " fixa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "338d9676-bd6d-4f5c-8706-815ad50195ac",
+    "data": [
+      {
+        "text": "rf",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

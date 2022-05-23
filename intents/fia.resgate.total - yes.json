@@ -1,0 +1,40 @@
+{
+  "id": "2966bcd3-27e5-4fc4-8c5b-1c0180722eb6",
+  "parentId": "8490e636-cbf4-4c97-85e3-8f29ebf68b9b",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "fia.resgate.total - yes",
+  "auto": true,
+  "contexts": [
+    "fiaresgatetotal-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.fiaresgate-custom.fiaresgatetotal-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Confirmado!\nA Fiduc agradece o seu contato. Volte sempre!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

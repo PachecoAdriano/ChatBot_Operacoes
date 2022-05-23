@@ -1,0 +1,41 @@
+[
+  {
+    "id": "05f92f02-4ba3-4ff9-81d9-6bbefeb62d85",
+    "data": [
+      {
+        "text": "parcela",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d9e1a139-c4e9-4fa1-9a4c-e6524ef9ac34",
+    "data": [
+      {
+        "text": "parce",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "15570e45-3782-4ab7-836b-269cba0ecf0f",
+    "data": [
+      {
+        "text": "parcial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

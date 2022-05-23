@@ -1,0 +1,54 @@
+{
+  "id": "feeaac90-d760-470d-b594-8cf71dedff5b",
+  "parentId": "72d24909-31e9-4500-a445-934fd4657dc1",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "mm.resgate.parcial - yes",
+  "auto": true,
+  "contexts": [
+    "mmresgateparcial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.mmresgatar-custom.mmresgateparcial-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "24ca1cad-a8e1-483b-a5d1-a7af7d0650bf",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Confirmado!\nA Fiduc agradece o seu contato. Volte sempre!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

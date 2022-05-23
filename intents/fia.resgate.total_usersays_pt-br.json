@@ -1,0 +1,28 @@
+[
+  {
+    "id": "40c94b53-546c-40c7-953e-1a6b0ad8c9fc",
+    "data": [
+      {
+        "text": "total",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5241c51d-c9dc-41a9-a2a6-14ff6978b78a",
+    "data": [
+      {
+        "text": "tudo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ec8f678a-cf43-4f3c-8b6b-6b0750b1fabe",
+    "data": [
+      {
+        "text": "renda",
+        "userDefined": false
+      },
+      {
+        "text": " variável",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f41b8cf4-828c-4747-8f41-0a82232e01c3",
+    "data": [
+      {
+        "text": "rv",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "23df8bc5-8b54-440b-9d24-ba6ae2845308",
+    "data": [
+      {
+        "text": "variável",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "86a97727-104a-4efb-9433-2b7b64a3c9e6",
+    "data": [
+      {
+        "text": "fia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "id": "7d933769-faf7-4d78-97ad-8882d82cd185",
+  "parentId": "564d7bdb-838a-4b1c-844a-138b8f138c41",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "rf.resgate.total",
+  "auto": true,
+  "contexts": [
+    "rfresgate-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.rfresgate-custom",
+      "affectedContexts": [
+        {
+          "name": "rfresgate-custom-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "rfresgatetotal-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ea2e667d-245d-449a-b61f-9b324e1aa2dc",
+          "name": "banco",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$banco",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Certo, para podermos proceder, precisamos saber os dados da conta a ser creditado o recurso. A conta precisa ser EM NOME DO TITULAR. Informe primeiro qual o banco:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f0017c37-ff55-4ad8-b0d0-02b764397d18",
+          "name": "agencia",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$agencia",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite a agência"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7407b6be-f385-4368-85e6-ab6598374c4b",
+          "name": "conta",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$conta",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite a conta corrente"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Dados da conta:\nBanco: $banco\nAgência: $agencia\nConta: $conta\n\nVocê confirma o resgate TOTAL dos recursos alocados no fundo RENDA FIXA para a conta corrente informada?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

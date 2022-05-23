@@ -1,0 +1,40 @@
+{
+  "id": "0074b2fd-d4fa-445b-807f-70333e93fbb3",
+  "parentId": "84e1f285-1af1-4112-9781-cf1dcc2ea964",
+  "rootParentId": "bbf92d47-9fff-4c60-8768-19f2dff30190",
+  "name": "mm.resgatar - custom - yes",
+  "auto": true,
+  "contexts": [
+    "mmresgatar-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.resgatar-custom.mmresgatar-custom.mmresgatar-custom-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Confirmado!\nA Fiduc agradece o seu contato. Volte sempre!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "37fc4d9b-f73e-4655-b6a9-469e52a0945c",
+    "data": [
+      {
+        "text": "quero sacar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "927e28e3-d9ca-465e-a4b5-b90e2a12c0c2",
+    "data": [
+      {
+        "text": "sacar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f75f94c8-c059-43d7-b0ec-224095b7c835",
+    "data": [
+      {
+        "text": "quero resgatar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d0a91380-7395-4474-9dc2-a236ab03707d",
+    "data": [
+      {
+        "text": "quero resgate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "38cb76af-614e-43e3-83a5-ed75f641edd8",
+    "data": [
+      {
+        "text": "resgatar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "01f55a39-0108-44cd-b935-4fcbbde69448",
+    "data": [
+      {
+        "text": "resgate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "d7cd5d75-de45-4290-bac2-8198cc359fef",
+  "parentId": "f7f06c86-0b9d-47d5-b89b-7534b9efd54c",
+  "rootParentId": "f7f06c86-0b9d-47d5-b89b-7534b9efd54c",
+  "name": "investir - yes",
+  "auto": true,
+  "contexts": [
+    "investir-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "investir.investir-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Seu pedido foi recebido e está agora em processamento. Em breve entraremos em contato.\nObrigado!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
